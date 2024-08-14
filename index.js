@@ -14,6 +14,10 @@ app.get("/a" , function(req, res, next) {
 })
 app.get("/test" , function(req, res, next) {
     res.send("test")
+
+})
+app.get("/test2" , function(req, res, next) {
+    res.send("test2")
 })
 
 app.use('/api/personas', personasRouter);
